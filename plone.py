@@ -8,7 +8,7 @@ REGULARS = ['[Arfrever]', 'alxd', 'Arminder', 'ArminderSingh', 'bloodbare', 'cla
 	'mcdonc', 'merpdotcom', 'moldy', 'moo-_-', 'nii', 'nopf', 'pbauer', 'pcdummy', 
 	'pysailor', 'rainrider', 'ree', 'regebro', 'rnix', 'robink', 'robmyers', 'rockfruit', 
 	'roq_', 'Rotonen', 'sallyk', 'santonelli', 'siel', 'SopelBot', 'SteveM', 
-	'stevepiercy', 'svx', 'syncbot', 'tibi', 'tkimnguyen', 'tsimkins', 'zombified',] 
+	'stevepiercy', 'svx', 'tibi', 'tkimnguyen', 'tsimkins', 'zombified',] 
 
 @sopel.module.commands('echo', 'repeat')
 def echo(bot, trigger):
