@@ -3,7 +3,7 @@ import sopel.module
 REGULARS = ['[Arfrever]', 'alxd', 'Arminder', 'ArminderSingh', 'bloodbare', 'claytron', 
 	'cuongnda', 'cwarner', 'danima1', 'datakurre', 'davidsapiro', 'djinni', 'domenkozar', 
 	'encolpe', 'esteele', 'frapell', 'gl278afd', 'glimmung', 'goibhniu', 'Gomez', 
-	'Hazelesque', 'hng23', 'isp_[m]', 'jakob_', 'jfroche', 'jham', 'jpcw', 'kaeru', 
+	'Hazelesque', 'hng23', 'hvelarde', 'isp_[m]', 'jakob_', 'jfroche', 'jham', 'jpcw', 'kaeru', 
 	'kiorky', 'kuetrzi', 'lem-fr', 'lentinj', 'malthe', 'martior', 'matthewwilkes', 
 	'mcdonc', 'merpdotcom', 'moldy', 'moo-_-', 'nii', 'nopf', 'pbauer', 'pcdummy', 
 	'pysailor', 'rainrider', 'ree', 'regebro', 'rnix', 'robink', 'robmyers', 'rockfruit', 
