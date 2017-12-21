@@ -31,7 +31,7 @@ def helloworld(bot, trigger):
 
 @sopel.module.rule('.*[^.]?moosehair.*')
 @sopel.module.rule('.*[^.]?help.*')
-def hi(bot, trigger):
+def help(bot, trigger):
     """Response when someone (who is not a regular \#plone member) asks for help"""
     MESSAGE = 'Welcome! Please read https://plone.org/support for tips on how to ask for help. Our forum https://community.plone.org is the best place to ask detailed questions, where more people will see them and be able to answer. For emergency support, contact commercial Plone providers at https://plone.com/providers'
     logger.info('Nick is ' + trigger.nick)
