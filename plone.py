@@ -18,7 +18,6 @@ def echo(bot, trigger):
     """Repeat what was said to me"""
     bot.reply(trigger.group(2))
 
-# not sure why this doesn't work
 @sopel.module.rule('hello')
 def hi(bot, trigger):
     """Say hi back"""
