@@ -11,7 +11,7 @@ REGULARS = ['[Arfrever]', 'alxd', 'Arminder', 'ArminderSingh', 'bloodbare', 'cla
 	'mcdonc', 'merpdotcom', 'moldy', 'moo-_-', 'nii', 'nopf', 'pbauer', 'pcdummy', 
 	'pysailor', 'rainrider', 'ree', 'regebro', 'rnix', 'robink', 'robmyers', 'rockfruit', 
 	'roq_', 'Rotonen', 'sallyk', 'santonelli', 'siel', 'SopelBot', 'SteveM', 
-	'stevepiercy', 'svx', 'tibi', 'tkimnguyen', 'tsimkins', 'zombified',] 
+	'svx', 'tibi', 'tsimkins', 'zombified',] 
 
 @sopel.module.commands('echo', 'repeat')
 def echo(bot, trigger):
@@ -29,7 +29,8 @@ def helloworld(bot, trigger):
     bot.say('Hello, world!')
 
 @sopel.module.rule('.*[^.]?moosehair.*')
-@sopel.module.rule('.*[^.]?help.*')
+#@sopel.module.rule('.*[^.]?help.*')
+@sopel.module.rule('.*(?<!\.)help.*')
 def help(bot, trigger):
     """Response when someone (who is not a regular \#plone member) asks for help"""
     MESSAGE = 'Welcome! Please read https://plone.org/support for tips on how to ask for help. Our forum https://community.plone.org is the best place to ask detailed questions, where more people will see them and be able to answer. For emergency support, contact commercial Plone providers at https://plone.com/providers'
