@@ -29,6 +29,7 @@ def helloworld(bot, trigger):
     """Greet the world"""
     bot.say('Hello, world!')
 
+@sopel.module.rule('.*[^.]?moosehair.*')
 @sopel.module.rule('.*[^.]?help.*')
 def hi(bot, trigger):
     """Response when someone (who is not a regular \#plone member) asks for help"""
