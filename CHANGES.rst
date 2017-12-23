@@ -4,6 +4,9 @@ History
 0.1 (unreleased)
 ----------------
 
+- Don't ask to ask - triggers help
+  [stevepiercy]
+  
 - fix help regex
   [stevepiercy]
   
