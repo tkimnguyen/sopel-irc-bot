@@ -28,8 +28,8 @@ def helloworld(bot, trigger):
     """Greet the world"""
     bot.say('Hello, world!')
 
+@sopel.module.rule('ask \w+? questions?\?')
 @sopel.module.rule('.*(?<!\.)help.*')
-#@sopel.module.rule('(?<!\.)help\b?') # does not work correctly https://regex101.com/r/CtWG03/1
 def help(bot, trigger):
     """Response when someone (who is not a regular \#plone member) asks for help"""
     MESSAGE = 'Welcome! Please read https://plone.org/support for tips on how to ask for help. Our forum https://community.plone.org is the best place to ask detailed questions, where more people will see them and be able to answer. For emergency support, contact commercial Plone providers at https://plone.com/providers'
